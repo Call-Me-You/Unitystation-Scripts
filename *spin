@@ -1,0 +1,16 @@
+
+sendmode, input
+^n::
+	MouseClick, left,,,1,,D
+	Loop
+	{
+		MouseMove, 680, 200
+		sleep,10
+		MouseMove,770,310
+		sleep,10
+		MouseMove,680,410
+		sleep,10
+		MouseMove,580,310
+		sleep,10
+	}
+^b::exitapp
